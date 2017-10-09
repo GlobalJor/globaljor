@@ -5,3 +5,73 @@
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
+
+body {
+	background: #fff;
+	font-family: "Nunito Sans", sans-serif;
+	font-size: 16px;
+	padding-top: 120px;
+}
+
+header{
+	background: #292929;
+	position: fixed;
+	width: 100%;
+	top:0;
+}
+
+.menu{
+	width: 90%;
+	padding-top: 10px;
+	min-width: 1000px;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+	align-items: center;
+}
+
+.menu .logo {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.menu .logo img{
+	vertical-align: top;
+	height: 60px;
+}
+
+.menu .btn-menu{
+	display: none;
+	color: #fff;
+	text-decoration: none;
+	font-size: 1em;
+}
+
+.menu .enlaces {
+	display: inline-block;
+	text-align: right;
+}
+
+.menu .enlaces a{
+	color: #00fff2;
+	text-decoration: none;
+	display: inline-block;
+	padding: 1em;
+	text-align: center;
+	font-size: 1em;
+}
+
+.menu .enlaces i{
+	margin-right: 5px;
+}
+
+.menu .enlaces a:hover{
+	background: #0d0d0d;
+	box-shadow: 0px 8px 0px #292929;
+}
+
+.menu .enlaces a:active{
+	background: #707070;
+	box-shadow: 0px 8px 0px #292929;
+}
